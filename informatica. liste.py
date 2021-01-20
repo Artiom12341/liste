@@ -1,0 +1,11 @@
+x=[1,3,4,6,7,-2,-8,-9,-10]
+print('Lista initiala=',x)
+y=sorted(x)
+print('ord . crescator=',y)
+x.sort(reverse=True)
+print('ord. descresctor=',x)
+m=len(x)
+x.extend([111])
+print('lista.4=',m,max(x),min(x),x)
+x.insert(2,222)
+print('lista mod.2=',x)
